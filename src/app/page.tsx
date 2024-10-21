@@ -1,9 +1,13 @@
 import { Button } from "@/components/ui/button"
+import { NavigationMenuDemo } from "@/components/ui/navbar"
+
 
 export default function Home() {
   return (
     <div>
-      <Button>Click me</Button>
+      <NavigationMenuDemo/>
+      {/* <Button>Login</Button> */}
+      {/* <Button>Sign up</Button> */}
     </div>
   )
 }
